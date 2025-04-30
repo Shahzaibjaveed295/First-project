@@ -1,0 +1,58 @@
+<!Doctype>
+<html>
+<head>
+<title>Registration  Form</title>
+<style>
+.gradient-button
+{
+background:linear-gradient(to right, #feb47b, #ff7e5f);
+Border:none;
+color:white;
+padding: 5px 135px;
+font-size:17px;
+cursor:pointer;
+border-radius:0px;
+transition:0.35s;
+margin:0;
+}
+.gradient-button:hover
+{
+background:linear-gradient(to right, blue, #feb47b);
+}
+.form{
+margin:30px auto;
+width:25%;
+height:80vh;
+border:3px solid black;
+padding:20px;
+box-shadow:8px 10px 10px rgba(0,0,0,0.5);
+background:linear-gradient(180deg,yellow,Green,#FFCF71,#2376DD);
+}
+</style>
+</head>
+<body>
+<div Class="form">
+<Marquee><b><h1>Registration Form</h1></Marquee></b>
+First Name:
+<br>
+<input type="text" placeholder="Enter Your First Name"><br><br>
+Last Name:
+<br>
+<input type="text" placeholder="Enter Your Last Name"><br><br>
+Age:
+<br>
+<input type="number" placeholder="How old are you?"><br><br>
+Email:
+<br>
+<input type="email" placeholder="Enter your vaild Email"><br><br>
+Password:
+<br>
+<input type="number" placeholder="Enter password"><br><br>
+Gender:
+<br>
+<input type="radio" Name="Male">Male
+<input type="radio" Name="female">Female<br><br>
+<button class="gradient-button">Submit</button>
+</div>
+</body>
+</html>
